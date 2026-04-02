@@ -18,4 +18,4 @@ main.py
 README.md
 !out/extension.js
 !out/extension.js.map
-!icon.png
+!extension/icon.png

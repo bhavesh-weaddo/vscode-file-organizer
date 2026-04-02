@@ -3,8 +3,8 @@
     "displayName": "File Organizer",
     "description": "Organize files into folders based on their extensions.",
     "version": "0.0.1",
-    "publisher": "bhavesh-kapoor",
-    "icon": "icon.png",
+    "publisher": "BhaveshKapoor",
+    "icon": "extension/icon.png",
     "author": {
         "name": "Bhavesh Kapoor",
         "email": "bhaveshkapoor09@gmail.com"
@@ -12,7 +12,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bhavesh-kapoor/vscode-file-organizer"
+        "url": "https://github.com/bhavesh-weaddo/vscode-file-organizer"
     },
     "engines": {
         "vscode": "^1.80.0"
