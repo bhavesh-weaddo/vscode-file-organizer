@@ -1,0 +1,72 @@
+{
+    "name": "vscode-file-organizer",
+    "displayName": "File Organizer",
+    "description": "Organize files into folders based on their extensions.",
+    "version": "0.0.1",
+    "publisher": "bhavesh-kapoor",
+    "icon": "icon.png",
+    "author": {
+        "name": "Bhavesh Kapoor",
+        "email": "bhaveshkapoor09@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bhavesh-kapoor/vscode-file-organizer"
+    },
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "vscode-file-organizer.organize",
+                "title": "Organize Files in Folder"
+            },
+            {
+                "command": "vscode-file-organizer.showStats",
+                "title": "Show Folder Extension Stats"
+            }
+        ],
+        "menus": {
+            "explorer/context": [
+                {
+                    "when": "explorerResourceIsFolder",
+                    "command": "vscode-file-organizer.organize",
+                    "group": "navigation"
+                },
+                {
+                    "when": "explorerResourceIsFolder",
+                    "command": "vscode-file-organizer.showStats",
+                    "group": "navigation"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts",
+        "test": "node ./out/test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.80.0",
+        "@types/glob": "^8.1.0",
+        "@types/mocha": "^10.0.1",
+        "@types/node": "20.x",
+        "@typescript-eslint/eslint-plugin": "^5.59.1",
+        "@typescript-eslint/parser": "^5.59.1",
+        "eslint": "^8.39.0",
+        "glob": "^8.1.0",
+        "mocha": "^10.2.0",
+        "typescript": "^5.0.4",
+        "@vscode/test-electron": "^2.3.0"
+    }
+}
