@@ -6,10 +6,10 @@ This extension allows you to quickly organize files into subfolders based on the
 
 ## Features
 
-- **🚀 One-Click Organization**: Right-click on any folder in the Explorer and select **"Organize Files in Folder"**. Files will be automatically moved into subdirectories named after their extensions (e.g., `.pdf` files go to a `pdf` folder).
-- **📊 Folder Statistics**: Right-click on a folder and select **"Show Folder Extension Stats"** to see a breakdown of file types and counts.
-- **📁 Smart Handling**: Automatically handles files without extensions by placing them in a `no_extension` folder.
-- **🛡️ Safe Operations**: Only moves files (skips directories) to prevent accidental data restructuring.
+- ** One-Click Organization**: Right-click on any folder in the Explorer and select **"Organize Files in Folder"**. Files will be automatically moved into subdirectories named after their extensions (e.g., `.pdf` files go to a `pdf` folder).
+- ** Folder Statistics**: Right-click on a folder and select **"Show Folder Extension Stats"** to see a breakdown of file types and counts.
+- ** Smart Handling**: Automatically handles files without extensions by placing them in a `no_extension` folder.
+- ** Safe Operations**: Only moves files (skips directories) to prevent accidental data restructuring.
 
 ## How to Use
 
@@ -34,7 +34,7 @@ If you have the `.vsix` file:
 ## Developer Info
 - **Author**: Bhavesh Kapoor
 - **Email**: bhaveshkapoor09@gmail.com
-- **GitHub**: [bhavesh-weaddo](https://github.com/bhavesh-weaddo)
+- **GitHub**: [bhavesh-kapoor](https://github.com/bhavesh-kapoor)
 
 ---
 *Created with ❤️ by Bhavesh Kapoor*
